@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="c1"><circle cx="50" cy="50" r="50"/></clipPath>
+  </defs>
+  <g clip-path="url(#c1)">
+    <circle cx="50" cy="50" r="50" fill="#e8d5c4"/>
+    <!-- hair -->
+    <ellipse cx="50" cy="28" rx="30" ry="22" fill="#3b2314"/>
+    <ellipse cx="28" cy="38" rx="8" ry="14" fill="#3b2314"/>
+    <ellipse cx="72" cy="38" rx="8" ry="14" fill="#3b2314"/>
+    <!-- face -->
+    <ellipse cx="50" cy="48" rx="22" ry="26" fill="#f0c8a0"/>
+    <!-- ears -->
+    <ellipse cx="28" cy="48" rx="4" ry="6" fill="#ecc09a"/>
+    <ellipse cx="72" cy="48" rx="4" ry="6" fill="#ecc09a"/>
+    <!-- eyes -->
+    <ellipse cx="40" cy="46" rx="4.5" ry="3.5" fill="white"/>
+    <circle cx="40.5" cy="46" r="2.5" fill="#2c1810"/>
+    <circle cx="41" cy="45.5" r="0.8" fill="white"/>
+    <ellipse cx="60" cy="46" rx="4.5" ry="3.5" fill="white"/>
+    <circle cx="60.5" cy="46" r="2.5" fill="#2c1810"/>
+    <circle cx="61" cy="45.5" r="0.8" fill="white"/>
+    <!-- eyebrows -->
+    <path d="M35 40 Q40 37 45 40" stroke="#3b2314" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M55 40 Q60 37 65 40" stroke="#3b2314" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- nose -->
+    <path d="M48 52 Q50 56 52 52" stroke="#c4956a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <!-- smile -->
+    <path d="M40 62 Q50 69 60 62" stroke="#b07050" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- cheeks -->
+    <circle cx="34" cy="58" r="4" fill="#e8a88a" opacity="0.4"/>
+    <circle cx="66" cy="58" r="4" fill="#e8a88a" opacity="0.4"/>
+    <!-- shoulders/shirt -->
+    <ellipse cx="50" cy="98" rx="38" ry="22" fill="#0b5f9e"/>
+    <ellipse cx="50" cy="92" rx="10" ry="5" fill="#f0c8a0"/>
+  </g>
+</svg>

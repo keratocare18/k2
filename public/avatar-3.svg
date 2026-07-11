@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="c3"><circle cx="50" cy="50" r="50"/></clipPath>
+  </defs>
+  <g clip-path="url(#c3)">
+    <circle cx="50" cy="50" r="50" fill="#dce6f0"/>
+    <!-- hair -->
+    <path d="M24 40 Q24 16 50 14 Q76 16 76 40 L76 28 Q76 12 50 10 Q24 12 24 28Z" fill="#5a3520"/>
+    <ellipse cx="30" cy="36" rx="7" ry="12" fill="#5a3520"/>
+    <ellipse cx="70" cy="36" rx="7" ry="12" fill="#5a3520"/>
+    <!-- face -->
+    <ellipse cx="50" cy="48" rx="22" ry="26" fill="#f5d5b8"/>
+    <!-- ears -->
+    <ellipse cx="28" cy="48" rx="4" ry="6" fill="#f0ccae"/>
+    <ellipse cx="72" cy="48" rx="4" ry="6" fill="#f0ccae"/>
+    <!-- eyes -->
+    <ellipse cx="40" cy="46" rx="4.5" ry="3.5" fill="white"/>
+    <circle cx="41" cy="46" r="2.5" fill="#3a2818"/>
+    <circle cx="41.5" cy="45.5" r="0.8" fill="white"/>
+    <ellipse cx="60" cy="46" rx="4.5" ry="3.5" fill="white"/>
+    <circle cx="61" cy="46" r="2.5" fill="#3a2818"/>
+    <circle cx="61.5" cy="45.5" r="0.8" fill="white"/>
+    <!-- eyelashes -->
+    <path d="M35.5 43 L34 41.5" stroke="#5a3520" stroke-width="0.8" stroke-linecap="round"/>
+    <path d="M55.5 43 L54 41.5" stroke="#5a3520" stroke-width="0.8" stroke-linecap="round"/>
+    <!-- eyebrows -->
+    <path d="M35 39 Q40 36 45 39" stroke="#5a3520" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M55 39 Q60 36 65 39" stroke="#5a3520" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- nose -->
+    <path d="M48 52 Q50 56 52 52" stroke="#c89878" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <!-- lips -->
+    <path d="M42 62 Q46 59 50 61 Q54 59 58 62" stroke="#c07060" stroke-width="1" fill="#d08878" stroke-linecap="round"/>
+    <path d="M42 62 Q50 67 58 62" stroke="#c07060" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <!-- cheeks -->
+    <circle cx="34" cy="56" r="4.5" fill="#e8a898" opacity="0.35"/>
+    <circle cx="66" cy="56" r="4.5" fill="#e8a898" opacity="0.35"/>
+    <!-- shoulders/shirt -->
+    <ellipse cx="50" cy="98" rx="38" ry="22" fill="#1e5fa0"/>
+    <ellipse cx="50" cy="92" rx="10" ry="5" fill="#f5d5b8"/>
+  </g>
+</svg>
