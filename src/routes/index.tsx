@@ -466,7 +466,7 @@ function ComparisonCard({ id, title, before, after, beforeAlt, afterAlt }: {
             src={before}
             alt={beforeAlt}
             loading="lazy"
-            className="block w-full object-contain transition-opacity duration-[350ms] ease-out"
+            className="block mx-auto max-h-[480px] w-auto h-auto object-contain transition-opacity duration-[350ms] ease-out"
             style={{ opacity: view === "before" ? 1 : 0 }}
           />
           <img
