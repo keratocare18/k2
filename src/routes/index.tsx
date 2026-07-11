@@ -17,6 +17,9 @@ import {
  } from "lucide-react";
 import { WhatsAppIcon } from "@/components/site/WhatsAppIcon";
 import heroEye from "@/assets/assets/hero-eye.jpg";
+import trustAvatar1 from "@/assets/avatars/trust-avatar-1.jpg";
+import trustAvatar2 from "@/assets/avatars/trust-avatar-2.jpg";
+import trustAvatar3 from "@/assets/avatars/trust-avatar-3.jpg";
 import blurryBefore from "@/assets/assets/treatments/blurry-vision/before.jpg";
 import blurryAfter from "@/assets/assets/treatments/blurry-vision/after.jpg";
 import nightBefore from "@/assets/assets/treatments/night-glare/before.jpg";
@@ -173,6 +176,8 @@ const CONDITIONS = [
   { to: "/irregular-cornea" as const, title: "High Irregular Astigmatism / RGP Intolerance", body: "Advanced scleral and specialty lens designs for patients who cannot tolerate standard RGP lenses." },
 ];
 
+const TRUST_AVATARS = [trustAvatar1, trustAvatar2, trustAvatar3];
+
 function Home() {
   return (
     <SiteLayout>
@@ -309,9 +314,16 @@ function FullHero() {
 
                 <div className="absolute inset-x-5 bottom-5 flex items-center gap-4 rounded-[1.8rem] bg-white/96 px-6 py-5 shadow-[0_26px_54px_-30px_rgba(15,23,42,0.42)] ring-1 ring-slate-200/75">
                   <div className="flex -space-x-2">
-                    <img src="/avatar-1.svg" alt="" className="h-12 w-12 rounded-full border-2 border-white object-cover" />
-                    <img src="/avatar-2.svg" alt="" className="h-12 w-12 rounded-full border-2 border-white object-cover" />
-                    <img src="/avatar-3.svg" alt="" className="h-12 w-12 rounded-full border-2 border-white object-cover" />
+                    {TRUST_AVATARS.map((avatarSrc) => (
+                      <img
+                        key={avatarSrc}
+                        src={avatarSrc}
+                        alt=""
+                        className="h-12 w-12 rounded-full border-2 border-white object-cover object-center"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    ))}
                   </div>
                   <div>
                     <div className="text-[1.4rem] font-semibold leading-none text-foreground">
